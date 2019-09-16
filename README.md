@@ -10,10 +10,19 @@
 ## Content List
 - Header
     - Logo
-    - Header Illustration
-
-- Main navigation
+    - Hero image
     -
+
+
+- Body
+
+
+
+
+- Footer
+
+
+
 
 
 
