@@ -29,6 +29,7 @@
     - Apply Now box on left side 
 
 - Footer
+
     - Quick Links
     - Campuses
     - Related Websites
