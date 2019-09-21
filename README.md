@@ -9,17 +9,37 @@
 
 ## Content List
 - Header
-    - Logo
-    - Hero image
-    -
-
+    - Logo on left side  in the same tittle page
+    - Page Title
+    - Navigation menu 
+        - GBC
+        - Course information
+            - Overview
+            - Full description
+            - Courses
+        - How to apply
+        - Carrier & postgraduate study Opportunities
+        - Search buttom
+        - Contact
+    - Open Sans font
 
 - Body
 
-
-
+    - Hero Image covering full page
+    - Apply Now box on left side 
 
 - Footer
+    - Quick Links
+    - Campuses
+    - Related Websites
+    - Contact Us
+    - Connect with GBC
+        - Social media
+            - Facebook
+            - Twitter
+            - Instagram
+            - Youtube
+            - Linkedin
 
 
 
