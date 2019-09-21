@@ -5,7 +5,7 @@
 # Inspiration
 
 - [IDD course](https://www.georgebrown.ca/programs/interaction-design-program-g113/)
-- [Georgebrownfrontsite](https://www.georgebrown.ca/)
+- [Georgebrownfrontsite](https://dribbble.com/shots/6946020-Pergamum-University-Homepage)
 
 ## Content List
 - Header
