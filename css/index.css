@@ -1,7 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+html{
+/* -----Custom properties----*/
+/* Background Colours*/
+--primary-a:;
+--primary-b:
+
+/*foreground colours*/
+
+/*Fonts*/
+
+}
+
+
 body {
-	background-color: lightblue;
+	background-color: rgb();
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.5rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+
+.schoollogo {
+	width: 18em;
+	height: auto;
+}
+
+.mainimage {
+	width: 100%;
+	height: auto;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: var();
+	font-weigh: 
+}
+
+h1 {
+	text-transform: uppcase;
 }

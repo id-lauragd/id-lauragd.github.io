@@ -10,7 +10,7 @@
 ## Content List
 - Header
     - Logo on left side  in the same tittle page
-    - Page Title
+    - Page Title on the right side of the logo
     - Navigation menu 
         - GBC
         - Course information
