@@ -1,45 +1,163 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); 
 
 
-html{
-/* -----Custom properties----*/
-/* Background Colours*/
---primary-a:;
---primary-b:
+html{ 
 
-/*foreground colours*/
+/* -----Custom properties----*/ 
 
-/*Fonts*/
+/* Background Colours*/ 
+
+--color1: rgba(215, 231, 240, 1); 
+
+/*foreground colours*/ 
+--color2: rgba(0, 101, 164, 1); 
+--color3: rgba(113, 208, 246, 1); 
+--color4: rgba(0, 178, 89, 1); 
+--color5: rgba(255, 210, 0, 1); 
+--color5: rgba(255, 210, 0, 1); 
+
+ 
+/*Fonts*/ 
+--font1: Roboto;
+--font2: Slab;  
+} 
+
+body { 
+    margin: 0; 
+    font-family: var(--font1, --font2); 
+
+} 
+
+header{
+	background-color: var(--color2);
+}
+
+#hamburguer{ 
+    display: none; 
+} 
+
+
+header label{
+	display: none;
+	padding: 1em;
+	width: 2em;
 
 }
 
 
-body {
-	background-color: rgb();
-	font-weight: 400;
-	font-style: italic;
-	font-size: 1.5rem;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+header label :hover{
+	cursor: pointer;
+	background-color: var(--color3);
+}
+
+h1 { 
+    color: white; 
+    text-transform: uppercase; 
+    font-size: 2em; 
+    position: relative;  
+    left: 27%; 
+	top: %;
+    width: 100%; 
+    height: auto; 
+} 
+
+.menu ul{ 
+    font: var(--font1); 
+    color: white; 
+    margin: 0; 
+    list-style: none; 
+    padding: 0; 
+	display: flex; 
+	
+  
+} 
+
+.menu li{ 
+    text-align: center; 
+    flex-grow: 1; 
+} 
+
+.menu li a{ 
+    display: block; 
+    padding: 0.5em 0.5em; 
+    color: white; 
+    text-decoration: none; 
+	list-style: none; 
+	font-size: 1.5em;
+} 
+
+.menu li:hover{ 
+	cursor: pointer;
+    background: var(--color3) 
+
+} 
+
+
+
+.schoollogo { 
+    width: 16.5em; 
+    height: auto; 
+    float: left; 
+} 
+
+
+
+.mainimage { 
+    width: 100%; 
+    height: auto; 
+
+} 
+
+.overview{
+	background-color: var(--color3);
+	padding: 1em;
+
+}
+.apply{
+	background-color: var(--color1);
+	padding: 1em;
 
 }
 
-
-.schoollogo {
-	width: 18em;
-	height: auto;
+.links ul{
+	list-style: none;
+	display: flex; 
+}
+.links li{
+	text-align: center; 
+    flex-grow: 1;
 }
 
-.mainimage {
-	width: 100%;
-	height: auto;
-}
+
+.socialmedia ul{ 
+    display: flex; 
+    list-style: none; 
+    justify-content: flex-end; 
+} 
 
 
-h1, h2, h3, h4 {
-	font-family: var();
-	font-weigh: 
-}
+ @media (max-width:768px){ 
 
-h1 {
-	text-transform: uppcase;
-}
+header label{ 
+
+display: block; 
+ 
+.menu{ 
+position: absolute; 
+
+background: var(--color2); 
+} 
+
+.menu ul{ 
+     flex-direction: column; 
+ } 
+
+.menu li{ 
+     border-top: 0.1em solid white; 
+} 
+
+ 
+
+} 
+
+ 
