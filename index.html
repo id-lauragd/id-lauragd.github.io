@@ -4,9 +4,7 @@
         <head> 
 
             <title>Interaction (Re)Design</title> 
-
             <link rel="stylesheet" href="css/index.css"> 
-
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
              
@@ -14,14 +12,18 @@
 
         <body> 
 
-            <header> 
-				<header class="gbclog"> 
-						
-				<section class="container">
-					<img src="images/logo.png" class="schoollogo"> 
-					
+            <header class="menubar"> 
+				
+				<section>
+					<img src="/images/logo.png" class="schoollogo"> 
 					<input type="checkbox" id="hamburguer"> 
-                    <label for="hamburguer"><img src="images/hamburguer.png"></label>    
+					<label for="hamburguer"><img src="/images/hamburguer.png"></label> 
+					<div id="search"> 
+						<form action="example" action="action_page"> 
+							<input type="search" placeholder="Search..." name="search"> 
+							<i class="fa fa-search"></i></i> 
+						</form> 
+					</div>    
 					<h1>Interaction Design and Development (G103)</h1> 		
 					<nav class= "menu">               
 						<ul> 
@@ -30,24 +32,20 @@
 							<li><a href="">Postgraduate Opportunities</a></li> 
 							<li><a href="">Contact</a></li> 
 						</ul> 
-						<div class="search"> 
-								<form action="example" action="action_page"> 
-		
-									<input type="search" placeholder="Search..." name="search"> 
-		
-									<i class="fa fa-search"></i></i> 
-								</form> 
-							</div> 
+						
 					</nav>   
 				</section>            
                    
-			</header> 
+			 </header> 
 			
 
-            <main> 
-                <div class= main> 
-                    <img src="images/ux.jpeg" class= mainimage> 
-				</div> 
+            <main class=""> 
+                <article class= "main"> 
+					<img src="/images/ux.jpeg" class= "main"> 
+					<h2>apply now</h2> 
+                    <h3>domestic students</h3> 
+                    <h3>international students</h3> 
+				</article> 
 				
                 <section class="overview"> 
                     <h2>Course Overview</h2> 
@@ -56,26 +54,22 @@
 					<p>Interaction design is a practice that will become more important as new technologies progress. It is essential to learn the principles involved in this type of design to create amazing interfaces for your users.</p>
 				</section> 
 
-                 
-                <div class= "apply"> 
-                    <h2>apply now</h2> 
-                    <h3>domestic students</h3> 
-                    <h3>international students</h3> 
-                </div> 
+                    
+				</section> 
             </main> 
-        	 <footer> 
+        	<footer> 
                 <section class="links"> 
                     <ul > 
-						<li><h4>quick links</h4></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-						<li><h4>related websites</h4></li> 
-						<li><h4>contact us</h4></li>
-						<li><h4>connect with gbc</h4> </li>
+						<li><h4>Quick Links</h4></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+						<li><h4>Related Websites</h4></li> 
+						<li><h4>Contact Us</h4></li>
+						<li><h4>Connect with GBC</h4> </li>
 
                     </ul> 
 
 				</section> 
    
-                <section class="socialmedia"> 
+                <article class="socialmedia"> 
                         <ul > 
 							<li><img src="images/facebook.png" class="facebook"></li> 
 							<li><img src="images/instagram.png" class="instagram"></li> 
@@ -84,7 +78,7 @@
 
 						</ul>                     
 						
-                </section> 
+				</article> 
 
             </footer> 
 
