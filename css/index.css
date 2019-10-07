@@ -24,81 +24,78 @@ html{
 body { 
     margin: 0; 
     font: var(--font1, --font2); 
-    background-color: var(--color1);
+    background-color: var(--color2);
     color: var(--color5);
     line-height: 1;
 
 } 
 
 
-header{
-	background-color: var(--color2);
+.container{
+    width: 100%;
+    display: grid;  
+    grid-gap: .5em;
+    grid-template-columns: repeat(2fr 1fr 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-auto-rows: minmax(2em, auto);
+}
+
+.container .image{
+    grid-column: 1;
+    grid-row: 1;
 }
 
 
 
-#search{
-    float: right;
-
-
+.container .search{
+    margin: 2em;
+    grid-column: 2/3;
+    grid-row:1;
+    max-height: 2em;
 }
 
-
-header label{
-	display: none;
-	padding: 1em;
-	width: 2em;
+.container .hamburguermenu{
+    margin: 1em;
+    grid-column: 4;
+    grid-row: 1;
+    max-height: 2em;
+  
+  
 }
 
-
-header label :hover{
-	cursor: pointer;
-	background-color: var(--color3);
-}
-
-h1 { 
+.container .title{
     color: var(--color5); 
     text-transform: uppercase; 
-    font-size: 2em; 
-    position:   
-    width: 80%; 
-    height: auto; 
-} 
+    text-align: center;
+    font-size: 1.8em; 
+    grid-column: 2/span 3;
+    grid-row: 1/2;
+    margin: 2em;
 
-.menu ul{ 
-    font: var(--font1); 
-    color: var(--color2); 
-    margin: 0; 
-    list-style: none; 
-    padding: 0; 
-	
-	
-  
-} 
+}
 
-.menu li{ 
-    text-align: center; 
-    flex-grow: 1; 
-} 
+.container .navegation{
+    color: var(--color5); 
+    grid-column: 2/span all; 
+    grid-row: 3;
+    
+ 
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    color: var(--color5);
 
-.menu li a{ 
-    display: block; 
-    padding: 0.5em 0.5em; 
-    color: white; 
-    text-decoration: none; 
-	list-style: none; 
-	font-size: 1.5em;
-} 
+}
 
-.menu li:hover{ 
-	cursor: pointer;
-    background: var(--color3) 
 
-} 
+
 
 .schoollogo { 
     width: 16.5em; 
     height: auto; 
+   
    
 } 
 
@@ -142,23 +139,13 @@ h1 {
 /* for mobile phones*/
  @media (max-width:320px){ 
 
-header label{ 
 
-    display: block; 
-}
  
-.menu{ 
-    position: absolute; 
-    background: var(--color2); 
-} 
 
-.menu ul{ 
-     flex-direction: column; 
- } 
 
-.menu li{ 
-     border-top: 0.1em solid white; 
-} 
+
+
+.m
 
  
 
