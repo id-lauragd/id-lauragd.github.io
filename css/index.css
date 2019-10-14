@@ -48,10 +48,26 @@ body {
 
 
 .container .search{
-    margin: 2em;
+    margin: 1em;
     grid-column: 2/3;
     grid-row:1;
     max-height: 2em;
+    grid-column: 2/span all; 
+    grid-row: 1;
+    
+  
+}
+.container .search .searching{
+    font-size: 1em;
+}
+ 
+
+.container .fa {
+    color: black;
+    font-size: 1.5em;
+    padding: 0 0 0 .2em;
+
+   
 }
 
 .container .hamburguermenu{
@@ -67,33 +83,30 @@ body {
     color: var(--color5); 
     text-transform: uppercase; 
     text-align: center;
-    font-size: 1.8em; 
+    font-size: 2.5em; 
     grid-column: 2/span 3;
-    grid-row: 1/2;
-    margin: 2em;
+    grid-row: 1;
+    padding: 1.5em 1em .5em 1em;
 
 }
 
-.container .navegation{
-    color: var(--color5); 
-    grid-column: 2/span all; 
-    grid-row: 3;
-    
- 
-    
-    
+nav ul{
+    grid-row: 2;  
+    text-align: center;
+    padding: 0 0 0 20.5em;
 }
-nav ul li{
-    display: inline-block;
-    color: var(--color5);
+nav ul li {
+    display: inline;
+    font-size: 2.5em;
+    list-style: none;
+    padding: 1em;
 
 }
 
-
-
+a{}
 
 .schoollogo { 
-    width: 16.5em; 
+    width: 15em; 
     height: auto; 
    
    
@@ -105,17 +118,21 @@ nav ul li{
 
 } 
 
-.apply{
-    text-transform: uppercase; 
-	background-color: var(--color2);
-	padding: 1em;
+
+.main .apply{
+	background-color: var(--color3);
+    padding: 1em;
+    border: 1em;
+    float: left;
+
 
 }
 
 .overview{
     background-color: var(--color5);
     color:var(--color2);
-	padding: 1em 1em;
+    padding: 1em 1em 1em 1em;
+
 
 }
 
@@ -140,15 +157,7 @@ nav ul li{
  @media (max-width:320px){ 
 
 
- 
-
-
-
-
-.m
-
- 
-
 } 
+
 
  
