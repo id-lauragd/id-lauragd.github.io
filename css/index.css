@@ -37,7 +37,7 @@ body {
     grid-gap: .5em;
     grid-template-columns: repeat(2fr 1fr 1fr);
     grid-template-rows: repeat(3, auto);
-    grid-auto-rows: minmax(2em, auto);
+    grid-auto-rows: minmax(1em, auto);
 }
 
 .container .image{
@@ -63,7 +63,7 @@ body {
  
 
 .container .fa {
-    color: black;
+    color: var(--color5);
     font-size: 1.5em;
     padding: 0 0 0 .2em;
 
@@ -86,18 +86,22 @@ body {
     font-size: 2.5em; 
     grid-column: 2/span 3;
     grid-row: 1;
-    padding: 1.5em 1em .5em 1em;
+    padding: .5em 0em .5em 0em;
 
 }
 
 nav ul{
+    list-style: none;
     grid-row: 2;  
     text-align: center;
     padding: 0 0 0 20.5em;
+   
 }
 nav ul li {
     display: inline;
-    font-size: 2.5em;
+    grid-row: 2;  
+    font-size: 2em;
+    text-align: center;
     list-style: none;
     padding: 1em;
 
